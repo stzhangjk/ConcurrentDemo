@@ -16,11 +16,11 @@ public class QueueTest {
 
         Iterator<Integer> iterator = queue.iterator();
         while(iterator.hasNext()){
-            System.out.println(iterator.next().toString());
+            System.out.println(iterator.next().toString());  //迭代器取得无序
         }
 
         Object[] arr = queue.toArray();
         Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));      //sort后才有序
     }
 }
