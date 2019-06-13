@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>001-Executors</module>
+        <module>002-CAS-Atomic</module>
     </modules>
 
 
