@@ -11,7 +11,8 @@
     <modules>
         <module>001-Executors</module>
         <module>002-CAS-Atomic</module>
-        <module>003-Queue-BlockingQueue</module>
+        <module>003-PriorityBlockingQueue</module>
+        <module>004-DelayQueue</module>
     </modules>
 
 
